@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Dairy-Sign In</title>
+<link rel="stylesheet" type="text/css" href="loginpage.css">
+<link rel="stylesheet" type="text/css" href="all.css">
+<script type="text/javascript" src="jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<script type="text/javascript" src="bootstrap.bundle.min.js"></script>
+</head>
+  <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h1 class="card-title text-center ">SHIVSHANKAR DAIRY</h1>
+            <h2 class="card-title text-center">Sign In</h2>
+            <form class="form-signin"  action="loginform.inc.php" method="POST">
+              <div class="form-label-group">
+                <input type="text" name="uname">
+    <label for="uname">Username</label>
+                            </div>
+
+              <div class="form-label-group">
+                <input type="password" name="pword">
+    <label for="pword">Password</label> 
+              </div>
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+              <hr class="my-4">              
+            </form>
+  <p>New User?</p>
+              <form class="form-signin" method="get" action="/php/login1.html">
+        <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Log In</button>
+
+    </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
